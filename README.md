@@ -37,3 +37,7 @@
 - 更新箇所の指定: `turbo-frame`タグで`ID`指定
 - 更新内容: `turbo-streem`タグで`action`（ここでは`append`追加が指定されている）、`target`にて更新先`ID`指定
 - [Turbo Streams The seven actions | Turbo Reference](https://turbo.hotwired.dev/reference/streams#the-seven-actions)
+
+#### Turbo Native
+
+ネイテイブアプリ（iOS, Android）用
