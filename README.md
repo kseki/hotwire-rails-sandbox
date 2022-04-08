@@ -41,3 +41,13 @@
 #### Turbo Native
 
 ネイテイブアプリ（iOS, Android）用
+jk
+### Stimulus
+
+- [hotwired/stimulus: A modest JavaScript framework for the HTML you already have](https://github.com/hotwired/stimulus)
+- 控えめなJavaScriptフレームワーク
+- HTMLのレンダリングに関心がない
+- `data-controller`属性によってページを継続的に監視。その値から対応するコントローラークラスを見つけ、インスタンスを作成し要素に接続する。
+- action: `data-action` 属性を使用して、コントローラのメソッドを DOM イベントに接続します。
+- target: `data-(コントローラー名)-target`コントローラ内の重要な要素の位置を特定します。
+
