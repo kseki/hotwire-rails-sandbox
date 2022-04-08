@@ -28,3 +28,12 @@
 
 - ページをチャンク(パーシャル)に分割し、サーバーから新しいデータが来たときに単独で更新できるようにすることができる
 - `turbo_frame_tag`で指定した部分が入れ替わる
+
+#### Turbo Streams
+
+- WebSocket、SSE、またはフォーム送信に応答して、HTMLとCRUDのようなアクションのセットだけを使用してページの変更を配信する。
+- POST/PUT/PATCH/DELETEアクションに応答してHTMLのブロックを更新する（GETは動作しない）ブラウザを更新することなく、全ユーザーに変更を通知することができる。
+- formatが`TURBO_STREAM`
+- 更新箇所の指定: `turbo-frame`タグで`ID`指定
+- 更新内容: `turbo-streem`タグで`action`（ここでは`append`追加が指定されている）、`target`にて更新先`ID`指定
+- [Turbo Streams The seven actions | Turbo Reference](https://turbo.hotwired.dev/reference/streams#the-seven-actions)
