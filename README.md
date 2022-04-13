@@ -41,7 +41,7 @@
 #### Turbo Native
 
 ネイテイブアプリ（iOS, Android）用
-jk
+
 ### Stimulus
 
 - [hotwired/stimulus: A modest JavaScript framework for the HTML you already have](https://github.com/hotwired/stimulus)
